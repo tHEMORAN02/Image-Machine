@@ -1,0 +1,20 @@
+┌───────────┐     ┌───────────────────┐     ┌───────────────┐
+│ Input     │──▶  │ Image Pre-Process │──▶  │ Generator /   │
+│ Image     │     │ (resize, align)   │     │ Editor Model  │
+└───────────┘     └───────────────────┘     └───────┬───────┘
+                                                    │
+                                                    │ NEW IMAGE GOES HERE, and maybe so does GAN??
+                                                    ▼
+                                             ┌───────────────┐
+                                             │ Memorability  │
+                                             │ Predictor     │
+                                             └───────┬───────┘
+           “it should be more colorful"              │
+                                                   ┌─┴─────────────┐
+                                                   │ Loss Module:  │
+                                                   │   • Content   │
+                                                   │     Preservation
+                                                   │   • Realism   │
+                                                   │   • Memorability↑
+                                                   └───────────────┘
+
